@@ -6,7 +6,7 @@ EMPTY = ' '
 def print_board(board):
     for row in board:
         print(' | '.join(row))
-        print('----------')
+        print('-----------')
 
 def check_winner(board, player):
     for row in board:
